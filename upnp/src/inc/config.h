@@ -394,7 +394,8 @@
  * see <upnp/inc/upnpdebug.h>
  */
 
-#define DEBUG_ALL		1
+//#define DEBUG_ALL		1
+#undef DEBUG_ALL		
 #define DEBUG_SSDP		0
 #define DEBUG_SOAP		0
 #define DEBUG_GENA		0
